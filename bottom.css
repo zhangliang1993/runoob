@@ -1,0 +1,69 @@
+.bottom{  width: inherit;height: 310px;  }
+/*初始化链接属性*/
+.bottom a{  opacity: 0.5;color: black;  }
+.bottom a:hover{  color: #16A245;  }
+
+.description{
+    width: inherit;height: 248px;
+    background: white;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+.des_auto{
+    width: 1100px;height: inherit;
+    margin: auto;
+}
+/*左部*/
+.d_left{
+    width: 772px;height: 202px;
+    float: left;
+    /*position: absolute;*/
+    margin-top: 28px;margin-left: 10px;
+    /*background: red;*/
+}
+.des-1 {
+    width: 192px;  height: inherit;
+    float: left;
+    border-left: 1px solid #E4E4E4;
+}
+.des-2{
+    width: 192px;  height: 176px;
+    float: left;
+    border-left: 1px solid #E4E4E4;
+}
+.d_left p{
+    margin-top: 0;margin-left: 30px;
+}
+.d_left li{
+    margin-left: 40px;margin-bottom: 7px;
+}
+.d_left a{  font-size: 0.8em;  }
+.d_left a:hover{
+    color: #16AF45;
+}
+/*二维码*/
+.d_right{
+    width: 300px;height: inherit;
+    float: left;
+    border-left: 1px solid #E4E4E4;
+}
+.d_right h3{
+    font-weight: 900;
+    margin: 25px 0 25px 35px;
+    opacity: 0.8;
+}
+.d_right img{
+    margin-left: 48px;
+}
+/*copyright*/
+.foot{
+    width: inherit;height: 60px;
+    float: left;
+}
+.foot p{
+    text-align: center;
+    font-size: 0.75em;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+.foot a:hover{  opacity: 1.0;  }
